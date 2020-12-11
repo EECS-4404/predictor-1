@@ -20,7 +20,7 @@ The Confusion Matrix of the testing dataset for the FFNN trained was:
 </div>
 Where
 <div>
-<img src="/images/info_matrix.jpg" width="300px"</img> 
+<img src="/images/info_matrix.jpg" width="400px"</img> 
 </div>
 So, the F1-score was:
 F1 = 2*686/(2*686+67+52) = 92%
