@@ -1,7 +1,10 @@
 # predictor-1
 Predictor of sub-group 1
 ### Feed-forward Neural network
-Configuration: [36 24] with scaled conjugate gradient
+Configuration: hidden: [36 24] output: 2 (in the format [0 1]) with scaled conjugate gradient.
 <div>
-<img src="/image.png" width="400px"</img> 
+<img src="/images/image.png" width="400px"</img> 
+</div>
+<div>
+<img src="/images/error.png" width="400px"</img> 
 </div>
