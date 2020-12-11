@@ -30,6 +30,10 @@ net.divideParam.trainInd= 1:6400; % training data indices 80% from training
 net.divideParam.valInd= 6400:8000; % validation data indices 20% from training
 net.divideParam.testInd= 8001:10000;  % testing data indices from testing dataset
 
+% transfer function
+net.layers{1}.transferFcn = 'tansig';
+net.layers{2}.transferFcn = 'tansig';
+
 % train
 net = train(net,x,target_t');
             
